@@ -1636,6 +1636,8 @@ public class PropsValues {
 
 	public static String[] RSS_FEED_TYPES = PropsUtil.getArray(PropsKeys.RSS_FEED_TYPES);
 
+	public static final int RSS_FEED_REFRESH_TIME = GetterUtil.getInteger(PropsUtil.get(PropsKeys.RSS_FEED_REFRESH_TIME));
+	
 	public static boolean RSS_FEEDS_ENABLED = GetterUtil.getBoolean(PropsUtil.get(PropsKeys.RSS_FEEDS_ENABLED));
 
 	public static final boolean RSS_PUBLISH_TO_LIVE_BY_DEFAULT = GetterUtil.getBoolean(PropsUtil.get(PropsKeys.RSS_PUBLISH_TO_LIVE_BY_DEFAULT));
